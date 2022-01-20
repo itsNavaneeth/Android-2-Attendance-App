@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Just create your class to manage daily attendance and report them. Add students in the next step"
+        android:text="Enter the Subject Name and the Section for whom you are taking the Subject"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
