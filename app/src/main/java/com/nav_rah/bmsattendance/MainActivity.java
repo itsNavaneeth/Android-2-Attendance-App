@@ -1,81 +1,53 @@
 package com.nav_rah.bmsattendance;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.View;
+import android.os.Handler;
+import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.nav_rah.bmsattendance.Adapter.ClassListAdapter;
-import com.nav_rah.bmsattendance.realm.Class_Names;
-import com.google.android.material.bottomappbar.BottomAppBar;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-import io.realm.Realm;
-import io.realm.RealmResults;
 
 public class MainActivity extends AppCompatActivity {
 
-    BottomAppBar bottomAppBar;
-    FloatingActionButton fab_main;
-    RecyclerView recyclerView;
-    TextView sample;
+    private static int SPLASH_SCREEN = 5000;
 
-    ClassListAdapter mAdapter;
+    //Variables
+    Animation topAnim, bottomAnim;
+    ImageView image;
+    TextView logo;
 
-    Realm realm;
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-        Realm.init(this);
 
-        getWindow().setEnterTransition(null);
 
-        bottomAppBar = findViewById(R.id.bottomAppBar);
-        fab_main = findViewById(R.id.fab_main);
-        fab_main.setOnClickListener(new View.OnClickListener() {
+        //Animations
+        topAnim = AnimationUtils.loadAnimation(this,R.anim.top_animation);
+        bottomAnim =AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
+
+        //Hooks
+        image = findViewById(R.id.imageView);
+        logo = findViewById(R.id.textView);
+
+        image.setAnimation(topAnim);
+        logo.setAnimation(bottomAnim);
+
+        new Handler().postDelayed(new Runnable() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Insert_class_Activity.class);
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, MainActivity1.class);
                 startActivity(intent);
+                finish();
             }
-        });
+        }, SPLASH_SCREEN);
 
-        realm = Realm.getDefaultInstance();
-
-        RealmResults<Class_Names> results;
-
-        results = realm.where(Class_Names.class)
-                .findAll();
-
-
-        sample = findViewById(R.id.classes_sample);
-        recyclerView = findViewById(R.id.recyclerView_main);
-
-        recyclerView.setHasFixedSize(true);
-        StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL);
-
-        recyclerView.setLayoutManager(staggeredGridLayoutManager);
-
-        mAdapter = new ClassListAdapter( results,MainActivity.this);
-        recyclerView.setAdapter(mAdapter);
-
-
-    }
-
-    @Override
-    protected void onResume() {
-        realm.refresh();
-        realm.setAutoRefresh(true);
-        super.onResume();
     }
 }
