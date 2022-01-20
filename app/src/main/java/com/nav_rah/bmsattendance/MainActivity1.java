@@ -1,6 +1,10 @@
 package com.nav_rah.bmsattendance;
 <<<<<<< HEAD
+<<<<<<< HEAD
 //main activity screen 3
+=======
+
+>>>>>>> parent of 507c8d4 (Update MainActivity1.java)
 =======
 
 >>>>>>> parent of 507c8d4 (Update MainActivity1.java)
