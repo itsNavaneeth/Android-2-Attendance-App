@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance;
+package com.nav_rah.bmsattendance;
 
 import org.junit.Test;
 

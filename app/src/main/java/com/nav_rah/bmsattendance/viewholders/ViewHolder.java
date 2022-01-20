@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance.viewholders;
+package com.nav_rah.bmsattendance.viewholders;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.util.Pair;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ajstudios.easyattendance.ClassDetail_Activity;
-import com.ajstudios.easyattendance.R;
-import com.ajstudios.easyattendance.realm.Class_Names;
+import com.nav_rah.bmsattendance.ClassDetail_Activity;
+import com.nav_rah.bmsattendance.R;
+import com.nav_rah.bmsattendance.realm.Class_Names;
 
 import io.realm.RealmResults;
 

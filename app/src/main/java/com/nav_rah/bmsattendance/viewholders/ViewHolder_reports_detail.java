@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance.viewholders;
+package com.nav_rah.bmsattendance.viewholders;
 
 import android.app.Activity;
 import android.view.View;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ajstudios.easyattendance.R;
-import com.ajstudios.easyattendance.realm.Attendance_Students_List;
+import com.nav_rah.bmsattendance.R;
+import com.nav_rah.bmsattendance.realm.Attendance_Students_List;
 
 import io.realm.RealmResults;
 

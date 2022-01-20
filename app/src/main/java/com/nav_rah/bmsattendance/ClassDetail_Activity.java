@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance;
+package com.nav_rah.bmsattendance;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,10 +28,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ajstudios.easyattendance.Adapter.StudentsListAdapter;
-import com.ajstudios.easyattendance.realm.Attendance_Reports;
-import com.ajstudios.easyattendance.realm.Attendance_Students_List;
-import com.ajstudios.easyattendance.realm.Students_List;
+import com.nav_rah.bmsattendance.Adapter.StudentsListAdapter;
+import com.nav_rah.bmsattendance.realm.Attendance_Reports;
+import com.nav_rah.bmsattendance.realm.Attendance_Students_List;
+import com.nav_rah.bmsattendance.realm.Students_List;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.yarolegovich.lovelydialog.LovelyCustomDialog;
 

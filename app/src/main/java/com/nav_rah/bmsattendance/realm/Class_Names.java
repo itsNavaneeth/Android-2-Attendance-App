@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance.realm;
+package com.nav_rah.bmsattendance.realm;
 
 import io.realm.RealmObject;
 

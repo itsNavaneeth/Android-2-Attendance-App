@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance;
+package com.nav_rah.bmsattendance;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -10,8 +10,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.ajstudios.easyattendance.Adapter.Reports_Detail_Adapter;
-import com.ajstudios.easyattendance.realm.Attendance_Students_List;
+import com.nav_rah.bmsattendance.Adapter.Reports_Detail_Adapter;
+import com.nav_rah.bmsattendance.realm.Attendance_Students_List;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance.viewholders;
+package com.nav_rah.bmsattendance.viewholders;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -14,11 +14,11 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ajstudios.easyattendance.BottomSheet.Student_Edit_Sheet;
-import com.ajstudios.easyattendance.R;
-import com.ajstudios.easyattendance.realm.Attendance_Reports;
-import com.ajstudios.easyattendance.realm.Attendance_Students_List;
-import com.ajstudios.easyattendance.realm.Students_List;
+import com.nav_rah.bmsattendance.BottomSheet.Student_Edit_Sheet;
+import com.nav_rah.bmsattendance.R;
+import com.nav_rah.bmsattendance.realm.Attendance_Reports;
+import com.nav_rah.bmsattendance.realm.Attendance_Students_List;
+import com.nav_rah.bmsattendance.realm.Students_List;
 
 import io.realm.Realm;
 import io.realm.RealmChangeListener;

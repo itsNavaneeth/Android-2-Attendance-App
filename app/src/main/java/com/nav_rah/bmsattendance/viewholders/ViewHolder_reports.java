@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance.viewholders;
+package com.nav_rah.bmsattendance.viewholders;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,9 +8,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ajstudios.easyattendance.R;
-import com.ajstudios.easyattendance.Reports_Detail_Activity;
-import com.ajstudios.easyattendance.realm.Attendance_Reports;
+import com.nav_rah.bmsattendance.R;
+import com.nav_rah.bmsattendance.Reports_Detail_Activity;
+import com.nav_rah.bmsattendance.realm.Attendance_Reports;
 
 import io.realm.RealmResults;
 

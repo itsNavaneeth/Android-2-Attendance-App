@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance;
+package com.nav_rah.bmsattendance;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +12,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.ajstudios.easyattendance.Adapter.ClassListAdapter;
-import com.ajstudios.easyattendance.realm.Class_Names;
+import com.nav_rah.bmsattendance.Adapter.ClassListAdapter;
+import com.nav_rah.bmsattendance.realm.Class_Names;
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 

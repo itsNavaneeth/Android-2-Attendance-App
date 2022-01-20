@@ -1,4 +1,4 @@
-package com.ajstudios.easyattendance.Adapter;
+package com.nav_rah.bmsattendance.Adapter;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 
-import com.ajstudios.easyattendance.R;
-import com.ajstudios.easyattendance.realm.Students_List;
-import com.ajstudios.easyattendance.viewholders.ViewHolder_students;
+import com.nav_rah.bmsattendance.R;
+import com.nav_rah.bmsattendance.realm.Students_List;
+import com.nav_rah.bmsattendance.viewholders.ViewHolder_students;
 
 import io.realm.Realm;
 import io.realm.RealmRecyclerViewAdapter;
