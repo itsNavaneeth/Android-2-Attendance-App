@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/feedback"
-        android:title="Send Feedback"
+        android:title="Homecoming"
         android:contentDescription="more"
         app:showAsAction="never"
         />
     <item
         android:id="@+id/help"
-        android:title="Help"
+        android:title="Coming Soon"
         android:contentDescription="more"
         app:showAsAction="never"
         />
     <item
         android:id="@+id/more"
-        android:title="more"
+        android:title="Far from Home"
         android:contentDescription="more"
         app:showAsAction="never"
         >

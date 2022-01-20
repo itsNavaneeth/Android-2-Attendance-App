@@ -16,7 +16,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Atendance Reports :"
+        android:text="Monitor Attendance:"
+        android:textSize="24dp"
         android:textColor="@color/theme_light"
         android:layout_margin="16dp"/>
     <androidx.recyclerview.widget.RecyclerView

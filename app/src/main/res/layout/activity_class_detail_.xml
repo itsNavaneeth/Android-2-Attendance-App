@@ -73,7 +73,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:textColor="@color/text_color_dark"
-            android:textSize="18dp"
+            android:textSize="20dp"
             android:layout_marginTop="12dp"/>
             <TextView
                 android:id="@+id/total_students_detail"
@@ -83,7 +83,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:textColor="@color/text_color_secondary"
-                android:textSize="16dp"
+                android:textSize="20dp"
                 android:layout_marginTop="5dp"/>
 
         <LinearLayout
@@ -180,11 +180,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Quick Attendance:"
+                android:text="Take Attendance:"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:textColor="@color/theme_light"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 />
 
             <androidx.recyclerview.widget.RecyclerView
