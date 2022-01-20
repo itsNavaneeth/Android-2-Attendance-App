@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:gravity="center"
-        android:text="Your crush is attending today"
+        android:text="Attend today, bunk tomorrow"
         android:textSize="20dp"
         android:textColor="@color/text_color_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
