@@ -1,5 +1,5 @@
 package com.nav_rah.bmsattendance;
-//main activity screen 2
+//main activity screen 3
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
