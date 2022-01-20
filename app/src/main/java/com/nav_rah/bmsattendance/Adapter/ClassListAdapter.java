@@ -78,7 +78,7 @@ public class ClassListAdapter extends RealmRecyclerViewAdapter<Class_Names, View
                 break;
             case "2":
                 holder.imageView_bg.setImageResource(R.drawable.asset_yellow_bg);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_3);
+                holder.frameLayout.setBackgroundResource(R.drawable.asset_yellow_bg);
                 break;
             case "3":
                 holder.imageView_bg.setImageResource(R.drawable.asset_pale_green);
