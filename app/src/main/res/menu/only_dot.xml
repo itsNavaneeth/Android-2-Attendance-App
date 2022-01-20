@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/more"
-        android:title="Send Feedback"
-        android:contentDescription="more"
+        android:title="Stay Tuned for More Features"
+        android:contentDescription="what more do you want"
         android:iconTint="@color/text_color_dark"
         app:showAsAction="never"
         />

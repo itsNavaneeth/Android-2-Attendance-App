@@ -23,9 +23,11 @@
             android:id="@+id/classes_sample"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="classes"
+            android:text="My Classes"
+            android:textSize="20dp"
             android:layout_marginLeft="16dp"
             android:textColor="@color/theme_light"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="16dp"/>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -44,8 +46,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/only_dot"
-        android:background="@color/white"
-        app:title="Easy Attendance"
+        android:background="@color/rahul"
+        app:title="BMS Attendance"
         />
 
     <com.google.android.material.bottomappbar.BottomAppBar
@@ -56,7 +58,8 @@
         style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
         app:fabAlignmentMode="end"
         app:fabAnimationMode="scale"
-        app:menu="@menu/bottom_app_bar"/>
+        app:backgroundTint="@color/colorAccent"
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_main"

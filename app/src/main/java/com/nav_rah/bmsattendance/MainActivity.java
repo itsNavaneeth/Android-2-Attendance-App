@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     //Variables
     Animation topAnim, bottomAnim;
     ImageView image;
-    TextView logo;
+    TextView logo, tagline;
 
 
 
@@ -36,9 +36,11 @@ public class MainActivity extends AppCompatActivity {
         //Hooks
         image = findViewById(R.id.imageView);
         logo = findViewById(R.id.textView);
+        tagline = findViewById(R.id.textView2);
 
         image.setAnimation(topAnim);
         logo.setAnimation(bottomAnim);
+        tagline.setAnimation(bottomAnim);
 
         new Handler().postDelayed(new Runnable() {
             @Override

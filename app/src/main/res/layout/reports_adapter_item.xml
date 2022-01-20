@@ -19,7 +19,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         app:cardCornerRadius="25dp"
-        app:cardBackgroundColor="@color/theme_light"
+        app:cardBackgroundColor="@color/reports"
         app:cardElevation="0dp">
         <TextView
             android:id="@+id/date_report_adapter"

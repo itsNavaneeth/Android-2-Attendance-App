@@ -70,27 +70,27 @@ public class ClassListAdapter extends RealmRecyclerViewAdapter<Class_Names, View
         switch (temp.getPosition_bg()) {
             case "0":
                 holder.imageView_bg.setImageResource(R.drawable.asset_blue_bg);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_1);
+//                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_1);
                 break;
             case "1":
                 holder.imageView_bg.setImageResource(R.drawable.asset_green_bg);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_2);
+//                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_2);
                 break;
             case "2":
                 holder.imageView_bg.setImageResource(R.drawable.asset_yellow_bg);
-                holder.frameLayout.setBackgroundResource(R.drawable.asset_yellow_bg);
+//                holder.frameLayout.setBackgroundResource(R.drawable.asset_yellow_bg);
                 break;
             case "3":
                 holder.imageView_bg.setImageResource(R.drawable.asset_pale_green);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_4);
+//                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_4);
                 break;
             case "4":
                 holder.imageView_bg.setImageResource(R.drawable.asset_orange_bg);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_5);
+//                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_5);
                 break;
             case "5":
                 holder.imageView_bg.setImageResource(R.drawable.asset_pale_white_bg);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_6);
+//                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_6);
                 holder.subject_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
                 holder.class_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
                 holder.total_students.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));

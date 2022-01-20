@@ -41,8 +41,8 @@
                 android:id="@+id/subjectName_adapter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cloud Computing"
-                android:textColor="@color/white"
+                android:text="MAD Lab"
+                android:textColor="@color/text_color_secondary"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -51,8 +51,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/subjectName_adapter"
-                android:text="Third year CSE"
-                android:textColor="@color/white"
+                android:text="Third year ISE"
+                android:textColor="@color/text_color_secondary"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
@@ -62,8 +62,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/className_adapter"
                 android:layout_marginTop="20dp"
-                android:text="students: 0"
-                android:textColor="@color/white" />
+                android:text="Students: 0"
+                android:textColor="@color/text_color_secondary" />
         </RelativeLayout>
 
     </FrameLayout>

@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.TextView;
 
 import com.nav_rah.bmsattendance.Adapter.ClassListAdapter;
@@ -39,7 +40,8 @@ public class MainActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main1);
         Realm.init(this);
-
+        Window window = this.getWindow();
+        window.setStatusBarColor(this.getResources().getColor(R.color.rahul));
         getWindow().setEnterTransition(null);
 
         bottomAppBar = findViewById(R.id.bottomAppBar);

@@ -199,7 +199,7 @@ public class ClassDetail_Activity extends AppCompatActivity {
 
                     lovelyCustomDialog = new LovelyCustomDialog(ClassDetail_Activity.this)
                             .setView(view1)
-                            .setTopColorRes(R.color.theme_light)
+                            .setTopColorRes(R.color.add_stud)
                             .setTitle("Add Student")
                             .setIcon(R.drawable.ic_baseline_person_add_24)
                             .setCancelable(false)
