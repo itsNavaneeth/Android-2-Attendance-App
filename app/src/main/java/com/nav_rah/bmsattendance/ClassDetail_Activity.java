@@ -114,26 +114,26 @@ public class ClassDetail_Activity extends AppCompatActivity {
 
         switch (theme) {
             case "0":
-                themeImage.setImageResource(R.drawable.asset_bg_paleblue);
+                themeImage.setImageResource(R.drawable.asset_blue_bg);
                 break;
             case "1":
-                themeImage.setImageResource(R.drawable.asset_bg_green);
+                themeImage.setImageResource(R.drawable.asset_green_bg);
 
                 break;
             case "2":
-                themeImage.setImageResource(R.drawable.asset_bg_yellow);
+                themeImage.setImageResource(R.drawable.asset_yellow_bg);
 
                 break;
             case "3":
-                themeImage.setImageResource(R.drawable.asset_bg_palegreen);
+                themeImage.setImageResource(R.drawable.asset_pale_green);
 
                 break;
             case "4":
-                themeImage.setImageResource(R.drawable.asset_bg_paleorange);
+                themeImage.setImageResource(R.drawable.asset_orange_bg);
 
                 break;
             case "5":
-                themeImage.setImageResource(R.drawable.asset_bg_white);
+                themeImage.setImageResource(R.drawable.asset_pale_white_bg);
                 break;
 
         }

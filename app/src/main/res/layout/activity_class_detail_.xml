@@ -38,7 +38,7 @@
                 android:fitsSystemWindows="true"
                 android:adjustViewBounds="true"
                 app:layout_collapseMode="parallax"
-                android:src="@drawable/asset_bg_yellow"
+                android:src="@drawable/asset_yellow_bg"
                 android:scaleType="centerCrop"
                 android:contentDescription="TODO" />
 

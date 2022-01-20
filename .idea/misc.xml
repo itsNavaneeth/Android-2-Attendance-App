@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_insert_class_.xml" value="0.1578125" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_class_detail_.xml" value="0.1" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_insert_class_.xml" value="0.1" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/class_adapter.xml" value="0.1" />
       </map>
     </option>
   </component>
