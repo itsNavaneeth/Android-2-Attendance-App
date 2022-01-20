@@ -3,24 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< Updated upstream
         <entry key="..\:/Users/navan/Desktop/mad project/MAD-Project-main/app/src/main/res/drawable/ic_launcher.xml" value="0.12864583333333332" />
         <entry key="..\:/Users/navan/Desktop/mad project/MAD-Project-main/app/src/main/res/drawable/ic_launcher_round.xml" value="0.24791666666666667" />
         <entry key="..\:/Users/navan/Desktop/mad project/MAD-Project-main/app/src/main/res/layout/activity_main.xml" value="0.23177083333333334" />
-=======
-        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/gradient_theme_oval.xml" value="0.14907407407407408" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.14907407407407408" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_check.xml" value="0.14907407407407408" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_clear_24px.xml" value="0.14907407407407408" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_round_add_24.xml" value="0.14907407407407408" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_round_search_24.xml" value="0.14907407407407408" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_class_detail_.xml" value="0.1" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_insert_class_.xml" value="0.1" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_main.xml" value="0.1578125" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/class_adapter.xml" value="0.1" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/popup_add_student.xml" value="0.1578125" />
-        <entry key="..\:/MAD-Project-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14907407407407408" />
->>>>>>> Stashed changes
       </map>
     </option>
   </component>
