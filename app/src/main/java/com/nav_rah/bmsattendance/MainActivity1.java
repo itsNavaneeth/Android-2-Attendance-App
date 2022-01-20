@@ -1,5 +1,9 @@
 package com.nav_rah.bmsattendance;
+<<<<<<< HEAD
 //main activity screen 3
+=======
+
+>>>>>>> parent of 507c8d4 (Update MainActivity1.java)
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
