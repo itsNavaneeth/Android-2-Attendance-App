@@ -3,9 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/gradient_theme_oval.xml" value="0.14907407407407408" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.14907407407407408" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_check.xml" value="0.14907407407407408" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_clear_24px.xml" value="0.14907407407407408" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_round_add_24.xml" value="0.14907407407407408" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/drawable/ic_round_search_24.xml" value="0.14907407407407408" />
         <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_class_detail_.xml" value="0.1" />
         <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_insert_class_.xml" value="0.1" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/activity_main.xml" value="0.1578125" />
         <entry key="..\:/MAD-Project-main/app/src/main/res/layout/class_adapter.xml" value="0.1" />
+        <entry key="..\:/MAD-Project-main/app/src/main/res/layout/popup_add_student.xml" value="0.1578125" />
       </map>
     </option>
   </component>
