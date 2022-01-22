@@ -94,6 +94,7 @@ public class ClassDetail_Activity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
+        //useful for recycler view, disappear while scroll
         CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_disease_detail);
         collapsingToolbarLayout.setTitle(subject_Name);
 
@@ -140,6 +141,7 @@ public class ClassDetail_Activity extends AppCompatActivity {
 
         //---------------------------------
 
+        //circular progress bar
         Runnable r = new Runnable() {
             @Override
             public void run() {

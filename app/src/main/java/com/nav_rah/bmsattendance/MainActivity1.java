@@ -39,11 +39,13 @@ public class MainActivity1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main1);
-        Realm.init(this);
+        Realm.init(this); //to start the realm database
+
+        //notification bar color change
         Window window = this.getWindow();
         window.setStatusBarColor(this.getResources().getColor(R.color.rahul));
-        getWindow().setEnterTransition(null);
 
+        getWindow().setEnterTransition(null);
         bottomAppBar = findViewById(R.id.bottomAppBar);
         fab_main = findViewById(R.id.fab_main);
         fab_main.setOnClickListener(new View.OnClickListener() {

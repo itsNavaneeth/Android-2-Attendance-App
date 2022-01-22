@@ -9,7 +9,7 @@ public class Class_Names extends RealmObject {
 
     String name_class;
     String name_subject;
-    String position_bg;
+    String position_bg; //selecting those 6 images for bg while creating class
 
     public String getId() {
         return id;
