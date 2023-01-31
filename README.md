@@ -5,7 +5,7 @@ This project is an Attendance Application built using Android for the faculties 
 This project was made in collaboration with @whorahulnayak
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="Screenshots/1-splash-screen.png" width="100" height="50">
 
 
 ## Use Case Diagram
